@@ -22,3 +22,9 @@
 - 설정파일을 만들면 간단하게 실행할 수 있음.
 - `webpack.config.js`에 웹팩 관련 설정을 작성하고, npm webpack --config webpack.config.js로 실행하면 위에서 실행한 명령어와 동일한 역할을 함
 - 설정파일명이 webpack.config.js라면 --config 옵션은 생략 가능
+
+# loader
+
+- 웹팩은 JS 뿐만이 아니라, 다른 리소스도 번들링할 수 있다.
+- https://webpack.js.org/guides/asset-management/#loading-css
+  - ex: css, image, font,
