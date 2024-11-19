@@ -25,6 +25,12 @@
 
 # loader
 
-- 웹팩은 JS 뿐만이 아니라, 다른 리소스도 번들링할 수 있다.
+- 웹팩은 JS 뿐만이 아니라, 다른 모듈도 번들링할 수 있다.
+  - ex: css, image, font
 - https://webpack.js.org/guides/asset-management/#loading-css
-  - ex: css, image, font,
+
+# plugin
+
+# --watch
+
+- 파일이 변경된 경우 웹팩이 이를 감지하고, 자동으로 컴파일해줌
