@@ -11,4 +11,14 @@
 - 역할
   - 오래된 브라우저도 지원하는 코드로 자동 변환
   - 여러 JS 파일을 하나로 묶음
-- `npx webpack --entry [엔트리파일] --output-path [번들링된 파일이 저장될 위치]`
+- 기본 명령어
+  - `npx webpack --entry [엔트리파일] --output-path [번들링된 파일이 저장될 위치]`
+
+![alt text](image.png)
+
+# webpack.config.js
+
+- 번들링할 때 항상 cli 명령어를 터미널에 치는 건 너무 번거로움
+- 설정파일을 만들면 간단하게 실행할 수 있음.
+- `webpack.config.js`에 웹팩 관련 설정을 작성하고, npm webpack --config webpack.config.js로 실행하면 위에서 실행한 명령어와 동일한 역할을 함
+- 설정파일명이 webpack.config.js라면 --config 옵션은 생략 가능
